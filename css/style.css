@@ -1,0 +1,46 @@
+* {margin: 0;padding:0;}
+/*body {background-color: #eee}*/
+        /* just for the demo */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            margin: 10px;
+        }
+        label {
+            position: relative;
+            vertical-align: middle;
+            bottom: 1px;
+            color: #000;
+            /*font-size: 1.2vw;*/
+        }
+        input[type=text],
+        input[type=password],
+        input[type=submit],
+        input[type=email] {
+            display: block;
+            margin-bottom: 15px;
+            padding: 3px;
+        }
+        input[type=checkbox] {
+            margin: 15px 15px 15px auto;
+        }
+form {
+    margin: 50px auto auto 50px;
+}
+input[type=submit], button {
+    padding: 10px;
+    background: #38d7d1;
+    border: 0;
+    border-radius: 9px;
+    box-shadow: 1px 1px 1px #000;
+    margin-bottom: 20px;
+}
+.logged-in {
+    background-color: #38d7d1;
+    border-radius: 70px;
+    padding:50px;
+    margin: 50px;
+    width: 30%;
+    color: #555;
+    /*font-size: 1.2vw*/
+}
